@@ -1,4 +1,8 @@
-# ex1_013
+# ex1_013 : Basic Widget
+## Name : Weerapat Phutthamongkhon
+### ID : 6340011013
+
+<img src="assets/images/final_work.PNG" style="width: 300px;">
 
 A new Flutter project.
 
