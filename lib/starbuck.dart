@@ -78,7 +78,7 @@ class Starbuck extends StatelessWidget {
               ),
 
               const SizedBox(
-                width: 160,
+                width: 170,
               ),
 
               //Setting
