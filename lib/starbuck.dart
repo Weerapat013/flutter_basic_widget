@@ -38,29 +38,21 @@ class Starbuck extends StatelessWidget {
                 height: 40,
                 width: 100,
                 color: null,
-                child: const Row(
-                  children: [
-                    Icon(Icons.account_circle,
-                      size: 24,
+                child: TextButton.icon(
+                  onPressed: () {},
+                  icon: const Icon(
+                    Icons.account_circle,
+                    size: 24,
+                    color: Colors.grey,
+                  ),
+                  label: const Text(
+                    'Sign in',
+                    style: TextStyle(
+                      fontSize: 20,
                       color: Colors.grey,
                     ),
-
-                    SizedBox(
-                      width: 5,
-                    ),
-
-                    Text("Sign in",
-                      style: TextStyle(
-                        fontSize: 20,
-                        color: Colors.grey,
-                      ),
-                    ),
-                  ],
+                  ),
                 )
-              ),
-
-              const SizedBox(
-                width: 10,
               ),
 
               //Inbox
@@ -68,24 +60,20 @@ class Starbuck extends StatelessWidget {
                 height: 40,
                 width: 100,
                 color: null,
-                child: const Row(
-                  children: [
-                    Icon(Icons.mail,
-                      size: 24,
+                child: TextButton.icon(
+                  onPressed: () {},
+                  icon: const Icon(
+                    Icons.mail,
+                    size: 24,
+                    color: Colors.grey,
+                  ),
+                  label: const Text(
+                    'Inbox',
+                    style: TextStyle(
+                      fontSize: 20,
                       color: Colors.grey,
                     ),
-
-                    SizedBox(
-                      width: 5,
-                    ),
-
-                    Text("Inbox",
-                      style: TextStyle(
-                        fontSize: 20,
-                        color: Colors.grey,
-                      ),
-                    ),
-                  ],
+                  ),
                 )
               ),
 
@@ -98,8 +86,15 @@ class Starbuck extends StatelessWidget {
                 height: 40,
                 width: 40,
                 color: null,
-                child: const Icon(Icons.settings, color: Colors.grey,),
-              ),
+                child: TextButton(
+                  onPressed: () {},
+                  child: const Icon(
+                    Icons.settings,
+                    size: 24,
+                    color: Colors.grey,
+                  ),
+                ),
+              )
             ],
           ),
 
@@ -119,7 +114,7 @@ class Starbuck extends StatelessWidget {
             ),
             //color: Colors.amber,
             child: Padding(
-              padding: EdgeInsets.fromLTRB(20, 20, 20, 0),
+              padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -135,7 +130,7 @@ class Starbuck extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 40,
                       fontWeight: FontWeight.bold,
-                      color: Colors.black87,
+                      color: Colors.blueGrey,
                     ),
                   ),
 
@@ -199,7 +194,7 @@ class Starbuck extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 40,
                       fontWeight: FontWeight.bold,
-                      color: Colors.black87,
+                      color: Colors.blueGrey,
                     ),
                   ),
 
